@@ -23,4 +23,4 @@ Run:
 To build your project
 
 ## Screenshot
-![layout](http://url/to/img.png)
+![layout](https://i.imgur.com/cW5QbBa.png)
