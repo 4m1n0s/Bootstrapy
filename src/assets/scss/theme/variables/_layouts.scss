@@ -1,0 +1,30 @@
+// Css Prefix
+$cssPrefix: "app";
+
+// Page Background
+$page-background: $body-bg;
+
+// Header
+$header-height    : 80px;
+$header-background: $white;
+$header-box-shadow: 0 5px 30px rgba($black, 0.05);
+$header-transition: $transition-base;
+
+
+// Content
+$content-transition: $transition-base;
+
+// Sidebar
+$sidebar-width               : 260px;
+$sidebar-background          : $white;
+$sidebar-box-shadow          : 5px 0 60px rgba($black, 0.05);
+$sidebar-transition          : $transition-base;
+$sidebar-navlink-height      : 46px;
+$sidebar-navlink-inner-height: 36px;
+
+
+// Footer
+$footer-height    : 70px;
+$footer-background: $white;
+$footer-box-shadow: 0 -5px 30px rgba($black, 0.05);
+$footer-transition: $transition-base;

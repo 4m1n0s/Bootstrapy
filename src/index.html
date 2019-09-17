@@ -1,0 +1,32 @@
+{% 
+    set page = {
+        title: 'Home'
+    }
+%}
+
+{% extends "layouts/master.html" %}
+
+{% block css_plugins %}
+
+{% endblock %}
+
+{% block css %}
+<link
+    rel="stylesheet"
+    href="./assets/css/theme.css"
+>
+{% endblock %}
+
+{% block content %}
+<p>
+    Content
+</p>
+{% endblock %}
+
+{% block js_plugins %}
+<script src="./assets/js/vendors/jquery.js"></script>
+{% endblock %}
+
+{% block js %}
+<script src="./assets/js/scripts.js"></script>
+{% endblock %}

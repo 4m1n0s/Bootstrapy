@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    >
+
+    <title>{{ page.title | safe }} | {{ siteName }}</title>
+
+    <!-- CSS Libraries -->
+    {% block css_plugins %}{% endblock %}
+
+    <!-- Theme CSS -->
+    {% block css %}{% endblock %}
+
+</head>
+
+<body>
+    <div class="{{ cssPrefix }}-wrapper">
+
+        {% include './base/sidebar.html' %}
+
+        <main class="{{ cssPrefix }}-main">
+
+            {% include './base/header.html' %}
+
+            <div class="{{ cssPrefix }}-content">
+
+                <div class="{{ cssPrefix }}-content__inner">
+                    {% block content %}{% endblock %}
+                </div>
+
+            </div>
+
+            {% include './base/footer.html' %}
+
+        </main>
+    </div>
+
+    <!-- JS Libraies -->
+    {% block js_plugins %}{% endblock %}
+
+    <!-- Page JS -->
+    {% block js %}{% endblock %}
+</body>
+
+</html>
